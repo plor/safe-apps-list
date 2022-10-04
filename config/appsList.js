@@ -176,6 +176,15 @@ const safeAppsConfig = [
       // ETHEREUM_NETWORK.XDAI,
     ],
   },
+  // SmartInvoice
+  {
+    url: `https://app.smartinvoice.xyz`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.GOERLI,
+      ETHEREUM_NETWORK.XDAI,
+    ],
+  },
   // TX-Builder
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmTJMCBZHX56z36aTUaL2QZ3rKTkzaq1CG3zhPSKb1Su3a`,
